@@ -173,10 +173,44 @@
         width: 75%;
         margin: auto;
     }
+    .about-me .container-hobbies{
+        width: 100%;
+        height: auto;
+    }
+    .container-hobbies h3{
+        text-align: center;
+        color: #2B2C2C;
+        font-size: 38px;
+        padding: 40px 0px;
+    }
+    .container-hobbies .board-hobbies{
+        width: 85%;
+        margin: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .board-hobbies .hobbie-item{
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+        border: 1px solid white;
+        border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 13px;
+        transform: scale(1);
+        transition: all 1s;
+    }
     .services{
         overflow: hidden;
         width: 500px !important;
-        height: 1600px;
+        height: 1616px;
         background: linear-gradient(180deg, #4FB286 5%, white 100%);
         position: relative;
     }
@@ -196,7 +230,8 @@
     }
     .container-box .box-title{
         width: 100%;
-        padding: 20px;
+        padding: 20px 0px;
+        margin: 0;
     }
     .box-title h2{
         text-align: center;
@@ -205,9 +240,9 @@
     }
     .box-title p{
         text-align: center;
-        font-size: 14px;
-        width: 95%;
-        margin: auto !important;
+        font-size: 13px;
+        width: 100%;
+        margin: 0;
     }
     .container-portafolio{
         max-width: 500px !important;
@@ -372,6 +407,8 @@
     .nav-redes-sociales .followLink li .circle{
         background: transparent;
         border: 1px solid white;
+        width: 20px;
+        height: 20px;
         padding: 10px;
         border-radius: 100%;
         transition: all 0.5s;
