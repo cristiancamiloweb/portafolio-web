@@ -4,6 +4,12 @@
         max-width: 500px !important;
         width: 500px !important;
     }
+    .container .logo .link-logo{
+        font-size: 30px;
+        color: #4FB286;
+        margin-left: 20px;
+        font-weight: bolder;
+    }
     .container-contact{
         width: 500px !important;
         height: 1100px;
