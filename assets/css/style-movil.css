@@ -134,22 +134,25 @@
         object-fit: cover;
         object-position: center;
     }
-    .showcase button{
+    .showcase a{
         display: block;
+        margin: 0px auto;
+        overflow: hidden;
         color: white;
         background-color: #4FB286;
         outline: none;
-        border: none;
-        width: 140px;
-        height: 50px;
+        border: 2px solid #4FB286;
+        text-align: center;
+        line-height: 60px;
+        width: 150px;
+        height: 60px;
         font-size: 16px;
         border-radius: 50px;
         transition: all 0.5s;
         transform: scale(1);
-        margin: 35px auto !important;
         animation: boton 2s linear infinite;
     }
-    .showcase button:hover{
+    .showcase a:hover{
         background-color: transparent;
         border: 2px solid #4FB286;
         color: #4FB286;
@@ -219,7 +222,7 @@
     }
     .container-box{
         width: 80%;
-        padding: 30px;
+        padding: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -233,7 +236,7 @@
     }
     .container-box .box-title{
         width: 100%;
-        padding: 20px 0px;
+        padding: 30px 0px;
         margin: 0;
     }
     .box-title h2{

@@ -133,7 +133,7 @@ header .logo .link-logo{
 .showcase{
     overflow: hidden !important;
     width: 100%;
-    height: 800px;
+    height: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,28 +158,31 @@ header .logo .link-logo{
     margin-top: 30px;
 }
 .showcase .container-photo-perfil{
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     background-color: #4FB286;
     border-radius: 100%;
     display: block;
-    margin: 40px auto;
+    margin: 50px auto;
     animation: foto-perfil 1s forwards;
 }
 .container-photo-perfil img{
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
 }
-.showcase button{
+.showcase a{
     display: block;
     margin: 0px auto;
+    overflow: hidden;
     color: white;
     background-color: #4FB286;
     outline: none;
-    border: none;
+    border: 2px solid #4FB286;
+    text-align: center;
+    line-height: 60px;
     width: 150px;
     height: 60px;
     font-size: 16px;
@@ -188,7 +191,7 @@ header .logo .link-logo{
     transform: scale(1);
     animation: boton 2s linear infinite;
 }
-.showcase button:hover{
+.showcase a:hover{
     background-color: transparent;
     border: 2px solid #4FB286;
     color: #4FB286;
@@ -435,9 +438,6 @@ header .logo .link-logo{
     color: #4FB286;
     font-size: 16px;
 }
-.container-portafolio p a:hover{
-    text-decoration: line-through;
-}
 .container-portafolio .container-work-ppal{
     width: 100%;
     height: auto;
@@ -628,15 +628,15 @@ header .logo .link-logo{
 .nav-redes-sociales .followLink li{
     display: inline-block;
     list-style: none;
-    margin: 5px;
+    margin: 6px;
 }
 .nav-redes-sociales .followLink li .circle{
     background: transparent;
     border: 1px solid white;
     padding: 15px;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
+    border-radius: 100px;
+    width: max-content;
+    height: max-content;
     transition: all 0.5s;
 }
 .nav-redes-sociales .followLink:hover .circle{
@@ -672,7 +672,7 @@ header .logo .link-logo{
     color: white;
     font-size: 16px;
 }
-.footer-two .yo{
+.footer-two .yo a{
     color: #2B2C2C;
 }
 .container-fijo{
